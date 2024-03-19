@@ -1,0 +1,22 @@
+{
+  "name": "farmer-solution",
+  "version": "1.0.0",
+  "description": "This project is about making a helpful web application for farmers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyncFool/farmer-solutions.git"
+  },
+  "author": "Vivek Singh , Anurag Chaudhary , Radhika Rani , Prashant Shukla , Kamya Saxena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SyncFool/farmer-solutions/issues"
+  },
+  "homepage": "https://github.com/SyncFool/farmer-solutions#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
