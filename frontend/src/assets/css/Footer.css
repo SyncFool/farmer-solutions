@@ -1,0 +1,102 @@
+:root {
+    --font-size-heading: 18px;
+    --line-height-heading: 1.2;
+    --font-size-content: 16px;
+    --line-height-content: 1.5;
+    --quote-font-size: 20px; /* Increased font size for the quote */
+    --quote-line-height: 1.6; /* Adjusted line height for the quote */
+  }
+  
+  .section_padding {
+      padding: 4rem 4rem;
+  }
+  
+  .footer {
+      background-color: rgba(0, 0, 0, 0.923);
+  }
+  
+  .sb_footer {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .sb_footer-links {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 2rem;
+  }
+  
+  .sb_footer-links-div {
+      width: 150px;
+      margin: 1rem;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      color: beige;
+  }
+  
+  .anchor {
+      color: antiquewhite;
+      text-decoration: none;
+  }
+  
+  .socialMedia {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .socialMedia img {
+      width: 80%;
+  }
+  
+  .sb_footer-links-div h2 {
+      font-size: var(--font-size-heading);
+      line-height: var(--line-height-heading);
+      margin-bottom: 1rem;
+      font-weight: bold; /* Added font-weight to make headings more prominent */
+  }
+  
+  .sb_footer-links-div p {
+      font-size: var(--font-size-content);
+      line-height: var(--line-height-content);
+      margin: 0.5rem 0;
+  }
+  
+  .sb_footer-links-div .quote {
+      font-size: var(--quote-font-size);
+      line-height: var(--quote-line-height);
+      margin-top: 2.5rem; /* Increased margin-top to give more space */
+      font-style: italic; /* Italicize the quote */
+      padding: 20px; /* Added padding for quote */
+      background-color: #f9f9f9; /* Added background color for quote */
+      border-left: 10px solid #ccc; /* Added border for quote */
+      quotes: "\201C""\201D""\2018""\2019"; /* Added quote marks */
+  }
+  
+  .sb_footer-links-div .quote:before {
+      content: open-quote; /* Added opening quote */
+  }
+  
+  .sb_footer-links-div .quote:after {
+      content: close-quote; /* Added closing quote */
+  }
+  
+  .hra {
+      border: none;
+      border-top: 1px solid white;
+      width: 100%;
+      margin: 0; /* Remove default margin */
+  }
+  
+  .sb_footer-copyright {
+      font-size: var(--font-size-content);
+      line-height: var(--line-height-content);
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      text-align: center;
+  }
+  

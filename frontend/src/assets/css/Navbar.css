@@ -1,0 +1,43 @@
+.navbar-1{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-logo{
+    margin-left: 30px;
+    padding-bottom: 5px;
+}
+.brand-logo:hover{
+    background-color: #185016;
+}
+.items{
+    font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+    width:60vw;
+    display: flex;
+    align-items: center;
+    
+
+}
+.item{
+    margin: 0px 20px;
+    font-size: 18px;
+}
+
+.btn-sign{
+    font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+    margin: auto;
+    font-size: large;
+}
+
+.functions{
+    display: flex;
+    width: 18vw;
+    align-items: center;
+    margin-right: 30px;
+    justify-content: flex-start;
+}

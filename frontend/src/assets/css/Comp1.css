@@ -1,0 +1,17 @@
+.comp-1-bg{
+    background-image: url("./assets/images/comp-1-img.jpg");
+    background-size: cover;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comp-1-tagline{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 70px;
+    color: #F6F4EF;
+}

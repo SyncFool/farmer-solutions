@@ -1,10 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './components/App.jsx'
-import './index.css'
+import Header from './components/Header.jsx'
+import Navbar from './components/Navbar.jsx'
+import Comp1 from './components/landing-page/comp1.jsx'
+import Footer from './components/Footer.jsx'
+
+// import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+    <Header/>
+    <Navbar/>
+    <Comp1/>
+    <Footer/>
+  </>,
 )
