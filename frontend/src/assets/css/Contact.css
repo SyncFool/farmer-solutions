@@ -1,0 +1,132 @@
+.bgImg{
+    background-image: url("../../../public/assets/images/contact-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:-55vh;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+}
+.imgTxt{
+     position: relative;
+    color: azure;
+    display: flex;
+    font-size:190%;
+    flex-wrap: wrap;
+}
+.imgTxt > div {
+    padding: 0.15em;
+}
+.imgTxt1{
+   color: azure;
+   font-size:450%;
+}
+.an {
+    color: azure;
+    text-decoration: none;
+}
+.info{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 7em 0em;
+    gap:1.8em;
+}
+.ab{
+    border: 2px solid none ;
+    cursor: pointer;
+    height:10em;
+    width:30em;
+    border-radius: 1em;
+    display:flex;
+     justify-content: space-evenly; 
+     align-items: center;
+}
+.infobg1{
+    
+    background-color: rgb(248,242,227);
+}
+.infobg2{
+   
+    background-color: rgb(241, 248, 227);
+}
+.infobg3{
+
+    background-color: rgb(227,241,248);
+}
+.cd{
+    font-size: 1.4em;
+    font-weight: 600;
+    font-family:plus jakarta sans, Sans-serif;
+}
+.ef{
+    font-size: 1.2em;
+    color: rgb(96, 100, 100);
+}
+
+.map{
+        position: relative;
+        padding-top: 56.25%; 
+        margin-bottom: 0px;
+    }
+    
+.map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 75%;
+    } 
+
+.contactlast {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin-top: 2px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2.5em;
+}
+
+.pl, .msgbox{
+    height: 40px; 
+    width: calc(50% - 20px); 
+    border: 2px solid rgb(144, 141, 141);
+    color: rgb(214, 211, 211);
+    padding: 0.5em;
+    box-sizing: border-box; 
+}
+
+
+.cropimg img {
+    width: 90%; 
+    height: auto; 
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center; 
+}
+
+.check {
+    border: 2px solid rgb(144, 141, 141);
+    color: rgb(214, 211, 211);
+    padding: 0.5em;
+}
+
+.checkbox-label {
+    color: rgb(127, 124, 124);
+    margin-left: 1.2em; 
+}
+.btn{
+    margin-left: 45%;
+}
