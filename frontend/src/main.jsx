@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink , BrowserRouter , Route , Routes , Router} from "react-router-dom";
 import ReactDOM from 'react-dom/client'
 import Header from './components/Header.jsx'
 import Navbar from './components/Navbar.jsx'
@@ -11,7 +12,21 @@ import AboutC1 from './components/about/About-C1.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
-  <AboutC1/>
+    <Sidebar/>
+
+  <BrowserRouter>
+    <Routes>
+      <Route exact path="/" element={ <Header/>}/>
+      <Route exact path="/wallet" element={ <Header/>}/>
+      <Route exact path="/tansactions" element={ <Header/>}/>
+      <Route exact path="/crop-management" element={ <Header/>}/>
+      <Route exact path="/hire-board" element={ <Header/>}/>
+      <Route exact path="/purchase-seed" element={ <Header/>}/>
+      <Route exact path="/book-transport" element={ <Header/>}/>
+      <Route exact path="/complaint" element={ <Header/>}/>
+      <Route exact path="/setting" element={ <Header/>}/>
+    </Routes>
+  </BrowserRouter>
 
   </>,
 )
