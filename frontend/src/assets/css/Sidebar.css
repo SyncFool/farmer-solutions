@@ -8,3 +8,7 @@
 .bi.me-2{
     font-size: 20px;
 }
+
+.active{
+    color: #fff;
+}

@@ -16,7 +16,7 @@
     font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
   font-style: normal;
-    width:60vw;
+    width:100%;
     display: flex;
     align-items: center;
     
@@ -26,6 +26,12 @@
     margin: 0px 20px;
     font-size: 18px;
 }
+.navLink.active {
+    /* Your custom styles for active NavLink elements */
+    color:  #185016;
+    font-weight: bold;
+  }
+  
 
 .btn-sign{
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -36,8 +42,16 @@
 
 .functions{
     display: flex;
-    width: 18vw;
+    width: 100%;
     align-items: center;
     margin-right: 30px;
     justify-content: flex-start;
+}
+
+.active{
+    color:red;
+}
+.navLink{
+    color: #555454;
+    text-decoration: none;
 }

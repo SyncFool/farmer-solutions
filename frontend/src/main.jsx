@@ -1,33 +1,40 @@
-import React from 'react'
-import { NavLink , BrowserRouter , Route , Routes , Router} from "react-router-dom";
-import ReactDOM from 'react-dom/client'
-import Header from './components/Header.jsx'
-import Navbar from './components/Navbar.jsx'
-import Comp1 from './components/landing-page/comp1.jsx'
-import Footer from './components/Footer.jsx'
-import Login from './components/login/Login.jsx'
-import Sidebar from './components/sidebar/Sidebar.jsx'
-import AboutC1 from './components/about/About-C1.jsx'
-import Contact from "./components/Contact.jsx"
+import React from "react";
+import {
+  NavLink,
+  BrowserRouter,
+  Route,
+  Routes,
+  Router,
+} from "react-router-dom";
+import ReactDOM from "react-dom/client";
+import Login from "./components/pages/Login.jsx";
+import Sidebar from "./components/sidebar/Sidebar.jsx";
+import AboutC1 from "./components/about/About-C1.jsx";
+import Contact from "./components/contact/Contact.jsx";
+import Home from "./components/pages/Home.jsx";
+import ContactUs from "./components/pages/ContactUs.jsx";
 // import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <>
-    <Sidebar/>
-
-  <BrowserRouter>
+    <BrowserRouter>
     <Routes>
-      <Route exact path="/" element={ <Header/>}/>
-      <Route exact path="/wallet" element={ <Header/>}/>
-      <Route exact path="/tansactions" element={ <Header/>}/>
-      <Route exact path="/crop-management" element={ <Header/>}/>
-      <Route exact path="/hire-board" element={ <Header/>}/>
-      <Route exact path="/purchase-seed" element={ <Header/>}/>
-      <Route exact path="/book-transport" element={ <Header/>}/>
-      <Route exact path="/complaint" element={ <Header/>}/>
-      <Route exact path="/setting" element={ <Header/>}/>
+    <Route exact path="/" element={<Home />} />
+    <Route exact path="/login" element={<Login />} />
+    <Route exact path="/services" element={<Home />} />
+    <Route exact path="/contact-us" element={<ContactUs />} />
+      <Route exact path="/user-panel" element={<Sidebar />} />
+      <Route exact path="/wallet" element={<Sidebar />} />
+      <Route exact path="/transactions" element={<Sidebar />} />
+      <Route exact path="/crop-management" element={<Sidebar />} />
+      <Route exact path="/hire-board" element={<Sidebar />} />
+      <Route exact path="/purchase-seed" element={<Sidebar />} />
+      <Route exact path="/book-transport" element={<Sidebar />} />
+      <Route exact path="/complaint" element={<Sidebar />} />
+      <Route exact path="/setting" element={<Sidebar />} />
+      
     </Routes>
-  </BrowserRouter>
-
-  </>,
-)
+  </BrowserRouter>;
+  </>
+);

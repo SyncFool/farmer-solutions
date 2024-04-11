@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import '../../assets/css/Login.css'
 import { MdOutlineNotStarted } from "react-icons/md";
 
@@ -14,7 +15,7 @@ const Login =()=>{
 <div className="login-right">
     <input type="text" className="input"placeholder='Username' />
     <input type="text" className="input"placeholder='Password' />
-    <button className='cssbuttons-io-button'> Login <MdOutlineNotStarted className='icon'/> </button>
+   <NavLink to="/user-panel" style={{color:"#fff",textDecoration:"none"}}> <button className='cssbuttons-io-button'>  Login <MdOutlineNotStarted className='icon'/> </button></NavLink>
 </div>
 
            </div>

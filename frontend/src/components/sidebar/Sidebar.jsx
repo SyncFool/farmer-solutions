@@ -20,8 +20,8 @@ const Sidebar = () => {
    
     <>
       <div className="d-flex sidebar flex-column flex-shrink-0 p-3 bg-light">
-        <a
-          href="/"
+        <NavLink
+          to="/"
           className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
         >
             
@@ -32,21 +32,28 @@ const Sidebar = () => {
             style={{ width: "80%" }}
           />
            
-        </a>
+        </NavLink>
         <hr />
         <ul className="nav nav-pills flex-column mb-auto">
-          <li>
-            <>
-            <NavLink to="/" className="nav-link link-dark " aria-current="page" >
-              <FaHome className="bi me-2" />
-              Dashboard
-            </NavLink>
-            </>
-          </li>
+        <li>
+  <NavLink 
+    to="/user-panel" 
+    className={({isActive}) => {
+      return isActive ? ' nav-link active' : 'nav-link link-dark';
+    }}
+    aria-current="page"
+  >
+    <FaHome className="bi me-2" />
+    Dashboard
+  </NavLink>
+</li>
+
          
           <li>
             <>
-            <NavLink to="/wallet" className="nav-link link-dark">
+            <NavLink to="/wallet"  className={({isActive}) => {
+      return isActive ? ' nav-link active' : 'nav-link link-dark';
+    }}>
               <CiWallet  className="bi me-2" />
               Wallet 
             </NavLink>
@@ -54,7 +61,9 @@ const Sidebar = () => {
           </li>
           <li>
             <>
-            <NavLink to="/transactions" className="nav-link link-dark">
+            <NavLink to="/transactions"  className={({isActive}) => {
+      return isActive ? ' nav-link active' : 'nav-link link-dark';
+    }}>
               <GrTransaction  className="bi me-2" />
               Transactions
             </NavLink>
@@ -62,7 +71,9 @@ const Sidebar = () => {
           </li>
           <li>
             <>
-            <NavLink to="/crop-management" className="nav-link link-dark">
+            <NavLink to="/crop-management"  className={({isActive}) => {
+      return isActive ? ' nav-link active' : 'nav-link link-dark';
+    }}>
               <PiPottedPlantLight className="bi me-2" />
               Crop Management
             </NavLink>
@@ -70,7 +81,9 @@ const Sidebar = () => {
           </li>
           <li>
             <>
-            <NavLink to="/hire-board" className="nav-link link-dark">
+            <NavLink to="/hire-board"  className={({isActive}) => {
+      return isActive ? ' nav-link active' : 'nav-link link-dark';
+    }}>
               <FaPersonMilitaryToPerson className="bi me-2" />
               Hire Board
             </NavLink>
@@ -78,23 +91,27 @@ const Sidebar = () => {
           </li>
           <li>
             <>
-            <NavLink to="/purchase-seed" className="nav-link link-dark">
+            <NavLink to="/purchase-seed"  className={({isActive}) => {
+      return isActive ? ' nav-link active' : 'nav-link link-dark';
+    }}>
               <GiPlantSeed className="bi me-2" />
               Purchase Seed
             </NavLink>
             </>
           </li>
           <li>
-            <>
-            <NavLink to="/book-transport" className="nav-link link-dark">
+            <NavLink to="/book-transport"  className={({isActive}) => {
+      return isActive ? ' nav-link active' : 'nav-link link-dark';
+    }}>
               <GiFarmTractor className="bi me-2" />
               Book Transport
             </NavLink>
-            </>
           </li>
           <li>
             <>
-            <NavLink to="/complaint" className="nav-link link-dark">
+            <NavLink to="/complaint"  className={({isActive}) => {
+      return isActive ? ' nav-link active' : 'nav-link link-dark';
+    }}>
               <VscFeedback  className="bi me-2" />
               Complaint & Suggestions
             </NavLink>
@@ -103,7 +120,9 @@ const Sidebar = () => {
           
           <li>
             <>
-            <NavLink to="/setting" className="nav-link link-dark">
+            <NavLink to="/setting" className={({isActive}) => {
+      return isActive ? ' nav-link active' : 'nav-link link-dark';
+    }}>
               <IoSettingsOutline className="bi me-2" />
               Settings
             </NavLink>
