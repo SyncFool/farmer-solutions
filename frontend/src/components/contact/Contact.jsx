@@ -19,7 +19,7 @@ const Contact = () => {
       <div className="info">
         <div className="infobg1  ab">
           <div>
-            <img src="../../public/assets/images/location-logo.png" />
+            <img src="/assets/images/location-logo.png" />
           </div>
           <div>
             <div className="ef">Our Location</div>
@@ -29,7 +29,7 @@ const Contact = () => {
 
         <div className="infobg2  ab">
           <div>
-            <img src="../../public/assets/images/call-logo.png" />
+            <img src="/assets/images/call-logo.png" />
           </div>
           <div>
             <div className="ef">Hotline</div>
@@ -39,7 +39,7 @@ const Contact = () => {
 
         <div className="infobg3  ab">
           <div>
-            <img src="../../public/assets/images/email-logo.png" />
+            <img src="/assets/images/email-logo.png" />
           </div>
           <div>
             <div className="ef">Email Address</div>
@@ -95,7 +95,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="col-6 cropimg ">
-          <img src="../../public/assets/images/comp-2-img.jpg" />
+          <img src="/assets/images/comp-2-img.jpg" />
         </div>
        
       </div>

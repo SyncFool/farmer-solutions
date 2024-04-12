@@ -26,10 +26,10 @@ const Sidebar = () => {
         >
             
           <img
-            className="brand-icon-img"
+            className="brand-icon-img mx-5"
             src="./assets/images/logo2.png"
             alt=""
-            style={{ width: "80%" }}
+            style={{ width: "50%" }}
           />
            
         </NavLink>
