@@ -4,7 +4,7 @@
     background-size: cover;
     background-position-y:-55vh;
     height: 50vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items:center;
