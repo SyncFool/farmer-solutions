@@ -1,0 +1,38 @@
+.homebg{
+    background-image: url("../../../public/assets/images/Home1-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    padding: 0.15em;
+    color: azure;
+}
+
+.home-bgTxt{
+    position: relative;
+    font-size:190%;
+    border-bottom: 2px solid rgb(103, 103, 25);
+}
+.home-bgTxt1{
+font-size:450%;
+}
+.homebtn {
+    margin-top: 1em; 
+    margin-right:4em;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+} 
+
+.homebtn button {
+    white-space: nowrap; 
+}
+
+  
+  
