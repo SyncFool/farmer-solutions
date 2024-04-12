@@ -57,7 +57,7 @@ const Footer=()=>{
         </div>
         <hr className="hra"></hr>
         <div className="sb_footer-copyright">
-            <center>{new Date().getFullYear()}@FarmerSolution.All right reserved</center>
+            <center>  © Copyrights Farmer Solutions {new Date().getFullYear()} . All right reserved</center>
         </div>
        </div>
       </div>  
