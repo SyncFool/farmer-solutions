@@ -1,0 +1,17 @@
+.top-bar {
+    width: 100%;
+    display: flex;
+    padding: 5;
+    height: 12vh;
+    border-bottom: 10px solid #185016;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .icon-header {
+    font-size: 2em;
+  }
+  
+  .icons {
+    padding: 2px 10px;
+  }

@@ -1,12 +1,17 @@
 import Sidebar from "../sidebar/Sidebar";
-import "../../assets/css/DHeader.css";
-import { FaEnvelope } from "react-icons/fa";
-import { IoMdNotifications } from "react-icons/io";
+import "../../assets/css/Dashboard.css";
+
 import Chart from "./Chart";
 import BarGraph from "./BarGraph";
 import PieChart from "./PieChart";
-import DFooter from "./DFooter";
+import DFooter from "../DFooter";
 import { FaSquareFacebook } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
+import { RxLinkedinLogo } from "react-icons/rx";
+import { TiSocialInstagram } from "react-icons/ti";
+
+import BreadCrumb from "../BreadCrumb";
+import TopBar from "../TopBar";
 
 export default function Dashboard() {
   return (
@@ -16,31 +21,9 @@ export default function Dashboard() {
         {/* Right Area Opened */}
         <div className="right-area">
           {/* Header */}
-          <div className="top-bar">
-            <div className="icons">
-              <FaEnvelope className="icon-header" />
-            </div>
-            <div style={{ marginRight: "50px" }} className="icons">
-              <IoMdNotifications className="icon-header" />
-            </div>
-          </div>
-          <div className="breadcrum-header">
-            <h4>Dashboard</h4>
-          </div>
-          <div className="breadcrum-menu">
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                  <a href="#" className="breadcrumb-item-text">
-                    Home
-                  </a>
-                </li>
-                <li class="breadcrumb-item active" aria-current="page">
-                  Dashboard
-                </li>
-              </ol>
-            </nav>
-          </div>
+         <TopBar/>
+          {/* Bread Crum */}
+          <BreadCrumb props={"Dashboard"}></BreadCrumb>
           {/* Menu Area */}
           <div className="card-menu">
             <div className="card card-items ">
@@ -137,10 +120,10 @@ export default function Dashboard() {
               {" "}
               <div className="heading-icon-text">
                 <div className="icon-social-media">
-                  <FaSquareFacebook />
+                  <FaTwitter />
                 </div>
                 <div className="heading-social-media">
-                  <p>Like us on facebook</p>
+                  <p>Follow us on Twitter</p>
                 </div>
               </div>
               <div className="count-socialmedia">
@@ -154,10 +137,10 @@ export default function Dashboard() {
               {" "}
               <div className="heading-icon-text">
                 <div className="icon-social-media">
-                  <FaSquareFacebook />
+                  <RxLinkedinLogo />
                 </div>
                 <div className="heading-social-media">
-                  <p>Like us on facebook</p>
+                  <p>Follow us on LinkedIn</p>
                 </div>
               </div>
               <div className="count-socialmedia">
@@ -171,10 +154,10 @@ export default function Dashboard() {
               {" "}
               <div className="heading-icon-text">
                 <div className="icon-social-media">
-                  <FaSquareFacebook />
+                  <TiSocialInstagram />
                 </div>
                 <div className="heading-social-media">
-                  <p>Like us on facebook</p>
+                  <p>Follow us on Instagram</p>
                 </div>
               </div>
               <div className="count-socialmedia">

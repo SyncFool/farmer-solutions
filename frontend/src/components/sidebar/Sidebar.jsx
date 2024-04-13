@@ -59,16 +59,7 @@ const Sidebar = () => {
             </NavLink>
             </>
           </li>
-          <li>
-            <>
-            <NavLink to="/transactions"  className={({isActive}) => {
-      return isActive ? ' nav-link active' : 'nav-link link-dark';
-    }}>
-              <GrTransaction  className="bi me-2" />
-              Transactions
-            </NavLink>
-            </>
-          </li>
+     
           <li>
             <>
             <NavLink to="/crop-management"  className={({isActive}) => {

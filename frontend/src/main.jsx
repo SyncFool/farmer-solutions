@@ -13,7 +13,8 @@ import AboutC1 from "./components/about/About-C1.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Home from "./components/pages/Home.jsx";
 import ContactUs from "./components/pages/ContactUs.jsx";
-import Dashboard from "./components/dasboard/D-Header.jsx";
+import Dashboard from "./components/dasboard/Dashboard.jsx";
+import Wallet from "./components/wallet/Wallet.jsx";
 // import './index.css'
 
 
@@ -26,7 +27,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Route exact path="/services" element={<Home />} />
     <Route exact path="/contact-us" element={<ContactUs />} />
       <Route exact path="/user-panel" element={<Dashboard />} />
-      <Route exact path="/wallet" element={<Sidebar />} />
+      <Route exact path="/wallet" element={<Wallet />} />
       <Route exact path="/transactions" element={<Sidebar />} />
       <Route exact path="/crop-management" element={<Sidebar />} />
       <Route exact path="/hire-board" element={<Sidebar />} />

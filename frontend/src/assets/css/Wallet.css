@@ -1,0 +1,71 @@
+/* Fixed for user panel */
+.fullBox {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .right-area {
+    width: 82vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+  }
+ 
+  /* Rest Css */
+
+  .cards-wallet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 0;
+  }
+  .wallet-item{
+    background-color: rgb(32, 152, 112);
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 12vh;
+    width:18vw;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    flex-direction: row;
+  }
+  .section-deposit-history{
+    display: flex;
+    margin-top: 3rem;
+  }
+  .recent-tansactions{
+    height:50vh;
+    padding:1rem;
+    overflow: scroll;
+  }
+  .wallet-item img{
+    height: 3.5em;
+    width: 3.5em;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .wallet-item p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+  }
+  .rheader p {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .rsearch .input-group{
+    width: 38vw;
+  }
+  .rsearch .input-group input{
+   border: 1px solid black;
+   padding-left: 1rem;
+  }
+  .rsearch{
+    display: flex;
+    flex-direction: row;
+  }
