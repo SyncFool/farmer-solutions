@@ -1,32 +1,33 @@
-/* App.js */
 import React, { Component } from 'react';
 import CanvasJSReact from '@canvasjs/react-charts';
 //var CanvasJSReact = require('@canvasjs/react-charts');
  
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
-class PieChart extends Component {
+class CropDetailsChart extends Component {
 	render() {
 		const options = {
-			exportEnabled: true,
 			animationEnabled: true,
 			title: {
-				text: "Fertilizers Purchased"
+				text: "Crop Details"
 			},
+			subtitles: [{
+				text: "71% Positive",
+				verticalAlign: "center",
+				fontSize: 24,
+				dockInsidePlotArea: true
+			}],
 			data: [{
-				type: "pie",
-				startAngle: 50,
-				toolTipContent: "<b>{label}</b>: {y}%",
-				showInLegend: "true",
-				legendText: "{label}",
-				indexLabelFontSize: 14,
-				indexLabel: "{label} - {y}%",
+				type: "doughnut",
+				showInLegend: true,
+				indexLabel: "{name}: {y}",
+				yValueFormatString: "#,###'%'",
 				dataPoints: [
-					{ y: 25, label: "Urea" },
-					{ y: 49, label: "Potassium" },
-					{ y: 9, label: "Manure" },
-					{ y: 5, label: "Ammonium Sulphate" },
-					{ y: 19, label: "Single Super Phosphate" }
+					{ name: "Barley", y: 5 },
+					{ name: "Rice", y: 31 },
+					{ name: "Wheat", y: 40 },
+					{ name: "Maze", y: 17 },
+					{ name: "Sarson", y: 7 }
 				]
 			}]
 		}
@@ -40,4 +41,4 @@ class PieChart extends Component {
 		);
 	}
 }
-export default PieChart;           
+export default CropDetailsChart;          

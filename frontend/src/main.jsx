@@ -15,6 +15,7 @@ import Home from "./components/pages/Home.jsx";
 import ContactUs from "./components/pages/ContactUs.jsx";
 import Dashboard from "./components/dasboard/Dashboard.jsx";
 import Wallet from "./components/wallet/Wallet.jsx";
+import CropManagement from "./components/crop-management/Crop.jsx";
 // import './index.css'
 
 
@@ -29,7 +30,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route exact path="/user-panel" element={<Dashboard />} />
       <Route exact path="/wallet" element={<Wallet />} />
       <Route exact path="/transactions" element={<Sidebar />} />
-      <Route exact path="/crop-management" element={<Sidebar />} />
+      <Route exact path="/crop-management" element={<CropManagement />} />
       <Route exact path="/hire-board" element={<Sidebar />} />
       <Route exact path="/purchase-seed" element={<Sidebar />} />
       <Route exact path="/book-transport" element={<Sidebar />} />

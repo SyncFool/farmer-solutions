@@ -57,96 +57,125 @@ export default function Wallet() {
                 <p>Recent Transactions</p>
               </div>
               <div className="rsearch">
-                <div class="input-group">
-                <input
+                <div className="input-group mb-3">
+                  <div className="input-group-text">
+                    <input
+                      className="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      aria-label="Checkbox for following text input"
+                    />
+                  </div>
+                  <input
                     type="text"
                     placeholder="Search by Id"
-                    class="form-control"
-                  />
-                  <input
-                    type="text"
-                    
-                    placeholder="Search by Name"
-                  />
-                  <input
-                    type="date"
-                    aria-label="Last name"
-                    class="form-control"
+                    className="form-control"
+                    aria-label="Text input with checkbox"
                   />
                 </div>
-              
+                <div className="input-group mb-3">
+                  <div className="input-group-text">
+                    <input
+                      className="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      aria-label="Checkbox for following text input"
+                    />
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="Search by Status"
+                    className="form-control"
+                    aria-label="Text input with checkbox"
+                  />
+                </div>
+                <div className="input-group mb-3">
+                  <div className="input-group-text">
+                    <input
+                      className="form-check-input mt-0"
+                      type="checkbox"
+                      value=""
+                      aria-label="Checkbox for following text input"
+                    />
+                  </div>
+                  <input
+                    type="date"
+                    className="form-control"
+                    aria-label="Text input with checkbox"
+                  />
+                </div>
+                {/* <button className="btn btn-primary">Search</button> */}
               </div>
-              {/* <button   class="btn btn-primary">Search</button> */}
-              <table class="table table-bordered">
-              <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Transaction Id</th>
-      <th scope="col">Amount</th>
-      <th scope="col">Status</th>
-      <th scope="col">Date & Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>UTR001235456</td>
-      <td>Rs 200</td>
-      <td >Success</td>
-      <td>24 Apr 2024</td>
-    </tr>
-    <tr>
-      <th scope="row">1</th>
-      <td>UTR001235456</td>
-      <td>Rs 200</td>
-      <td >Success</td>
-      <td>24 Apr 2024</td>
-    </tr>
-    <tr>
-      <th scope="row">1</th>
-      <td>UTR001235456</td>
-      <td>Rs 200</td>
-      <td >Success</td>
-      <td>24 Apr 2024</td>
-    </tr>
-    <tr>
-      <th scope="row">1</th>
-      <td>UTR001235456</td>
-      <td>Rs 200</td>
-      <td >Success</td>
-      <td>24 Apr 2024</td>
-    </tr>
-    <tr>
-      <th scope="row">1</th>
-      <td>UTR001235456</td>
-      <td>Rs 200</td>
-      <td >Success</td>
-      <td>24 Apr 2024</td>
-    </tr>
-    <tr>
-      <th scope="row">1</th>
-      <td>UTR001235456</td>
-      <td>Rs 200</td>
-      <td >Success</td>
-      <td>24 Apr 2024</td>
-    </tr>
-    <tr>
-      <th scope="row">1</th>
-      <td>UTR001235456</td>
-      <td>Rs 200</td>
-      <td >Success</td>
-      <td>24 Apr 2024</td>
-    </tr>
-    <tr>
-      <th scope="row">1</th>
-      <td>UTR001235456</td>
-      <td>Rs 200</td>
-      <td >Success</td>
-      <td>24 Apr 2024</td>
-    </tr>
-    
-  </tbody>
-</table>
+
+              <table className="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Transaction Id</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Date & Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>UTR001235456</td>
+                    <td>Rs 200</td>
+                    <td>Success</td>
+                    <td>24 Apr 2024</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>UTR001235456</td>
+                    <td>Rs 200</td>
+                    <td>Success</td>
+                    <td>24 Apr 2024</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>UTR001235456</td>
+                    <td>Rs 200</td>
+                    <td>Success</td>
+                    <td>24 Apr 2024</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>UTR001235456</td>
+                    <td>Rs 200</td>
+                    <td>Success</td>
+                    <td>24 Apr 2024</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>UTR001235456</td>
+                    <td>Rs 200</td>
+                    <td>Success</td>
+                    <td>24 Apr 2024</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>UTR001235456</td>
+                    <td>Rs 200</td>
+                    <td>Success</td>
+                    <td>24 Apr 2024</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>UTR001235456</td>
+                    <td>Rs 200</td>
+                    <td>Success</td>
+                    <td>24 Apr 2024</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>UTR001235456</td>
+                    <td>Rs 200</td>
+                    <td>Success</td>
+                    <td>24 Apr 2024</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
           {/* Recent Transactions Close */}
