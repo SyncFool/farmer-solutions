@@ -1,0 +1,30 @@
+.comp3home1{
+
+    background-color: #F6F4EF;
+    margin:10em 0;
+    padding-top:1.9em;
+}
+
+.comp3home-heading{
+    font-size:3.5em;
+    margin:0.5em;
+}
+.comp3home-picture{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.comp3home-pic{
+    margin:2.3em;
+    cursor: pointer;
+}
+.comp3home-pic-content{
+    margin-top:1.7em;
+    font-size: 1.5em;
+    color: darkgreen;
+    cursor: pointer;
+}
+.com3home1-subheading{
+    font-size: 1.4em;
+}
