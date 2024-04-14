@@ -10,15 +10,15 @@ const Comp3home=()=>{
         <div className="comp3home-heading"><center>What We Provide</center></div>
         <div className="comp3home-picture">
             <div className="comp3home-pic">
-                <div><img src="./assets/images/fertilizer & seed.png"/></div>
+                <div><img src="/assets/images/fertilizer & seed.png"/></div>
                 <div className="comp3home-pic-content"><center>Fertilizer & Seed</center></div>
             </div>
             <div className="comp3home-pic">
-                <div><img src="./assets/images/farm labor.png"/></div>
+                <div><img src="/assets/images/farm labor.png"/></div>
                 <div className="comp3home-pic-content"><center>Farm Labour</center></div>
             </div>
             <div className="comp3home-pic">
-                <div><img src="./assets/images/Transportation.png"/></div>
+                <div><img src="/assets/images/Transportation.png"/></div>
                 <div className="comp3home-pic-content"><center>Transportation & Tools</center></div>
             </div>
             <div className="comp3home-pic">

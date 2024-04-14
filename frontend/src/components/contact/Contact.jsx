@@ -91,11 +91,11 @@ const Contact = () => {
             ></textarea>
           </div>
           <div className="mb-3 col-6 ">
-          <button type="button" class="btn  btn-info w-100">Submit</button>
+          <button type="button" class="btn  btn-info w-100 contactbtn ">Submit</button>
           </div>
         </div>
-        <div className="col-6 cropimg ">
-          <img src="/assets/images/comp-2-img.jpg" />
+        <div className="col-6 cropimg">
+          <img src="public/assets/images/comp-2-img.jpg"/>
         </div>
        
       </div>
