@@ -15,6 +15,8 @@ import Home from "./components/pages/Home.jsx";
 import ContactUs from "./components/pages/ContactUs.jsx";
 import Dashboard from "./components/dasboard/Dashboard.jsx";
 import Wallet from "./components/wallet/Wallet.jsx";
+import AboutUs from "./components/pages/About.jsx";
+import Projects from "./components/pages/Projects.jsx";
 import CropManagement from "./components/crop-management/Crop.jsx";
 // import './index.css'
 
@@ -36,6 +38,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route exact path="/book-transport" element={<Sidebar />} />
       <Route exact path="/complaint" element={<Sidebar />} />
       <Route exact path="/setting" element={<Sidebar />} />
+      <Route exact path="/about-us" element={<AboutUs />} />
+      <Route exact path="/projects" element={<Projects />} />
       
     </Routes>
   </BrowserRouter>;
