@@ -1,53 +1,81 @@
 .section-2 {
-    margin:7em 4em;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-   
-  .sec2-right{
-    margin: 2.5em;
-    width:50%;
+  margin: 7em 4em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-  .sec2-left
-  {
- margin-left:2em;
-  }
-  .sec2-left-base {
-    position: relative; 
-  }
-  
-  .sec2-left-upper {
-    position: absolute;
-    bottom: -4em;
-    left: -4em; 
-    transition: transform 0.3s ease;
-  }
-  .sec2-left-upper:hover,.sec2-left-base:hover {
-    transform: scale(0.9); 
-  }
- 
+
+.sec2-right {
+  margin: 2.5em;
+  width: 50%;
+}
+
+.sec2-left {
+  margin-left: 2em;
+}
+
+.sec2-left-base {
+  position: relative;
+}
+
+.sec2-left-upper {
+  position: absolute;
+  bottom: -4em;
+  left: -4em;
+  transition: transform 0.3s ease;
+}
+
 .sec2-left-base img,
 .sec2-left-upper img {
-    border-radius: 0.65em; /* Adjust the value as needed */
+  border-radius: 0.65em;
 }
 
-.sec2-right1{
-    font-size:190%;
+.sec2-right1 {
+  font-size: 190%;
 }
-.sec2-right2{
-       font-size:450%;
+
+.sec2-right2 {
+  font-size: 450%;
 }
-.sec2-right-content{
- color:rgb(110, 101, 101)
+
+.sec2-right-content {
+  color: rgb(110, 101, 101);
 }
-.sec2-right4-heading{
-font-size: 180%;
+
+.sec2-right4-heading {
+  font-size: 180%;
 }
+.sec2-left-base img, .sec2-left-upper img { border-radius: 0.65em; cursor: pointer; }
+ .sec2-left img:hover, .sec2-left-upper img:hover { transform: scale(0.95);}
 .sec2-right4 {
-    display:flex;
-    flex-direction: row ;
-    flex-wrap: wrap;
-    padding:2.5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+  width: 100%; 
 }
 
+.sec2-right4-content {
+  flex: 1;
+  margin-left: 1em;
+}
+
+.sec2-right4-heading {
+  font-size: 180%;
+}
+
+.sec2-right4-icon {
+  flex-shrink: 0;
+  margin-right: 1em;
+}
+
+.sec2-right4-icon svg {
+  font-size: 2em;
+}
+.sec2-right4-main{
+  display: flex;
+  flex-direction: column;
+  margin:2em;
+}
