@@ -130,13 +130,13 @@ const Sidebar = () => {
             aria-expanded="false"
           >
             <img
-              src="https://github.com/mdo.png"
+              src="https://avatars.githubusercontent.com/u/156906053?v=4"
               alt=""
               width="32"
               height="32"
               className="rounded-circle me-2"
             />
-            <strong>mdo</strong>
+            <strong>Vivek Singh</strong>
           </a>
           <ul
             className="dropdown-menu text-small shadow"

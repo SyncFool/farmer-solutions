@@ -33,3 +33,9 @@
     margin-left: 0;
   
 }
+.crop-details-area-edit-add{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    justify-content: center;
+}

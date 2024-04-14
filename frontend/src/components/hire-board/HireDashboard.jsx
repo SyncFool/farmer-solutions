@@ -6,40 +6,55 @@ import { Link } from "react-router-dom";
 import "../../assets/css/HireBoard.css";
 import { useState } from "react";
 
-const PeopleCard = ({ props }) => {
+const PeopleCardComponent = ({farmerData}) => {
+  const PeopleCard = ({ props }) => {
+    return (
+      <>
+        <div className="card person-card-component">
+          <div className="verified-hireboard">
+            {props.verified && (
+              <img src="./assets/images/verified.png" alt="" />
+            )}
+          </div>
+          <div className="user-image-hireboard">
+            <img
+              src={props.image}
+              alt=""
+              style={{ height: "100px", width: "100px", borderRadius: "10px" }}
+            />
+          </div>
+          <div className="person-details-hireboard">
+            <div className="user-title-hireboard">
+              <p>{props.name}</p>{" "}
+              <button className="btn rounded-pill btn-outline-info">
+                Hire Me
+              </button>
+            </div>
+            <div className="user-tagline-hireboard">
+              <div className="rating-hireboard-person">
+                <p className="star">&#9733;</p> <p>{props.rating}</p> <p>|</p>
+                <p>Rs {props.charges} Per Hour</p> <p>|</p>
+                <p className="reviews">{props.review} reviews</p>
+              </div>
+            </div>
+            <div className="user-description-area-hireboard">
+              <p>{props.description}</p>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  };
+
   return (
-    <>
-      <div className="card" style={{ width: "10rem", height: "10rem" }}>
-        <img
-          src={props.image}
-          class="card-img-top"
-          alt="..."
-          style={{ height: "10rem" }}
-        />
-        <div className="card-body">
-          <h5 className="card-title">{props.name}</h5>
-          <p className="card-text">{props.description}</p>
-        </div>
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item">Charges : {props.rate}/Per Hour</li>
-          <li className="list-group-item">Location : {props.location}</li>
-        </ul>
-        <div
-          className="card-body"
-          style={{ display: "flex", justifyContent: "center" }}
-        >
-          <Link
-            to="/"
-            style={{ marginLeft: 0 }}
-            className="check-more-details btn btn-outline-success rounded-pill"
-          >
-            Check More Details
-          </Link>
-        </div>
-      </div>
-    </>
+    <div>
+      {farmerData.map((item) => (
+        <PeopleCard props={item} key={item.id} />
+      ))}
+    </div>
   );
 };
+
 const RecentHiresComponents = ({ recentHiresData }) => {
   const RecentHires = ({ props }) => {
     return (
@@ -90,6 +105,84 @@ export default function HireDashboard() {
     { id: 20, name: "Harper", charges: "570", date: "10-04-2024" },
   ]);
 
+  const [farmerData, setFarmerData] = useState([
+    {
+      id: 1,
+      name: "John Smith",
+      verified: true,
+      image: "./assets/images/person/1.jpg",
+      rating: 4.3,
+      charges: 180,
+      review: 1200,
+      description:
+        "Hello, I'm John Smith. I have a passion for agriculture and have been working in the field for several years. I specialize in crop management and sustainable farming practices.",
+    },
+    {
+      id: 2,
+      name: "Michael Johnson",
+      verified: true,
+      image: "./assets/images/person/2.jpg",
+      rating: 4.7,
+      charges: 200,
+      review: 1500,
+      description:
+        "Hi, I'm Michael Johnson. I come from a farming family and have hands-on experience in various aspects of agriculture. I'm dedicated to delivering top-quality produce to consumers.",
+    },
+    {
+      id: 3,
+      name: "David Brown",
+      verified: false,
+      image: "./assets/images/person/3.jpg",
+      rating: 4.1,
+      charges: 160,
+      review: 900,
+      description:
+        "My name is David Brown. I'm a young and enthusiastic farmer with a keen interest in modern farming techniques. I'm committed to continuous learning and improvement in agriculture.",
+    },
+    {
+      id: 4,
+      name: "James Wilson",
+      verified: true,
+      image: "./assets/images/person/4.jpg",
+      rating: 4.5,
+      charges: 220,
+      review: 1800,
+      description:
+        "I'm James Wilson, a seasoned farmer with a focus on sustainable farming practices. I believe in the importance of environmental stewardship and strive to minimize the ecological impact of farming.",
+    },
+    {
+      id: 5,
+      name: "Robert Taylor",
+      verified: false,
+      image: "./assets/images/person/5.jpg",
+      rating: 4.2,
+      charges: 190,
+      review: 1100,
+      description:
+        "Hey there, I'm Robert Taylor. I have a strong background in horticulture and specialize in cultivating fruits and vegetables. I'm dedicated to providing fresh and nutritious produce to the community.",
+    },
+    {
+      id: 6,
+      name: "William Martinez",
+      verified: true,
+      image: "./assets/images/person/6.jpg",
+      rating: 4.6,
+      charges: 210,
+      review: 1600,
+      description:
+        "I'm William Martinez, an experienced farmer with a focus on precision agriculture. I leverage technology to optimize crop yields and ensure sustainable farming practices.",
+    },
+    {
+      id: 7,
+      name: "Daniel Thomas",
+      verified: true,
+      image: "./assets/images/person/7.jpg",
+      rating: 4.4,
+      charges: 195,
+      review: 1350,
+      description:
+        "Hello, I'm Daniel Thomas. I have a diverse background in agriculture, with expertise in livestock management and organic farming. I'm passionate about animal welfare and environmental sustainability.",
+    }]);
   return (
     <>
       <div className="full-box">
@@ -106,34 +199,12 @@ export default function HireDashboard() {
             className="hire-dashboard-area card"
             style={{ display: "flex", flexDirection: "row" }}
           >
-            <div
-              style={{ display: "flex", flexDirection: "row" }}
-              className="left-hire-dashbard col-6 card"
-            >
-              <PeopleCard
-                props={{
-                  id: 1,
-                  name: "Mohit Singh",
-                  rate: 500,
-                  location: "Taradham Colony",
-                  description: "Does Very Good Service",
-                  image: "./assets/images/person/person1.jpeg",
-                }}
-              />
-              <PeopleCard
-                props={{
-                  id: 1,
-                  name: "Mohit Singh",
-                  rate: 500,
-                  location: "Taradham Colony",
-                  description: "Does Very Good Service",
-                  image: "./assets/images/person/person2.jpeg",
-                }}
-              />
+            <div className="left-hire-dashboard col-7 card">
+             <PeopleCardComponent farmerData={farmerData} />
             </div>
             <div
-              className="right-hire-dashboard col-6 card"
-              style={{ overflow: "scroll", height: "70vh", width: "38vw" }}
+              className="right-hire-dashboard col-5 card"
+              style={{ overflow: "scroll", height: "70vh", padding: "1rem" }}
             >
               <div className="header-hire-board">
                 <p> Recent Hires</p>
