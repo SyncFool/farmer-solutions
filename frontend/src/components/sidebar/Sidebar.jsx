@@ -82,11 +82,11 @@ const Sidebar = () => {
           </li>
           <li>
             <>
-            <NavLink to="/purchase-seed"  className={({isActive}) => {
+            <NavLink to="/purchase"  className={({isActive}) => {
       return isActive ? ' nav-link active' : 'nav-link link-dark';
     }}>
               <GiPlantSeed className="bi me-2" />
-              Purchase Seed
+              Purchase
             </NavLink>
             </>
           </li>
