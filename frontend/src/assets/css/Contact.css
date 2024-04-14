@@ -1,5 +1,5 @@
 .bgImg{
-    background-image: url("../../../public/assets/images/contact-img.jpg");
+    background-image: url("/assets/images/contact-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y:-55vh;
@@ -140,6 +140,6 @@
     color: rgb(127, 124, 124);
     margin-left: 1.2em; 
 }
-.btn{
+.contactbtn{
     margin-left: 45%;
 }

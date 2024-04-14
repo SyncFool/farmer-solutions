@@ -1,5 +1,5 @@
 .homebg{
-    background-image: url("../../../public/assets/images/Home1-img.jpg");
+    background-image: url("/assets/images/Home1-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

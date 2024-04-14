@@ -40,14 +40,14 @@ const Footer=()=>{
 
         <div className="sb_footer-links-div">
             <h2>Services</h2>
-            <a className="anchor" href="/agricultureProducts">
-            <p>Agriculture Products</p>
+            <a className="anchor" href="/seeds & fertilizer">
+            <p>Seeds & Fertilizer</p>
             </a>
-            <a  className="anchor"href="/organicProducts">
-            <p>Organic Products</p>
+            <a  className="anchor"href="/expert labor">
+            <p>Expert Labor</p>
             </a>
-            <a className="anchor" href="/waterManagement">
-            <p>Water Management</p>
+            <a className="anchor" href="/transportation">
+            <p>Transportation</p>
             </a>
             <a className="anchor" href="/farmEquipments">
             <p>Farm Equipments</p>

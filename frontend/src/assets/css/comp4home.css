@@ -1,0 +1,21 @@
+
+.comp4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    background-color: #E9AA00;
+}
+
+.comp4logo {
+    width: 18em;
+    height: 20em;
+}
+
+.comp4logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+
+
