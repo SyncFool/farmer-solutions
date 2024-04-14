@@ -1,5 +1,5 @@
 import "../../assets/css/About-C1.css";
-const About1=()=>{
+const Project1=()=>{
     return (
 
         <div className="Img">
@@ -10,15 +10,21 @@ const About1=()=>{
                </a>
                </div>
                 <div>.</div>
-                <div>About</div>
+                <div>Projects</div>
             </div>
 
             <div className="Txt1">
-             About Us
+             Projects
             </div>
-           </div>
+        </div>
+
+
+       
+
+
+
 
     )
 }
 
-export default  About1;
+export default  Project1;
