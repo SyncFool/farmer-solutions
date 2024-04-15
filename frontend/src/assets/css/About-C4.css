@@ -1,0 +1,29 @@
+.middle{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-bottom: 40px;
+  }
+  .middle-left{
+    /* text-align: center; */
+  }
+.us{
+  text-align: center;
+}
+.ot{
+  font-size:250%;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sa{
+  font-size:150%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+
+  
+
