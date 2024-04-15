@@ -5,30 +5,25 @@ import CanvasJSReact from '@canvasjs/react-charts';
  
 var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
-class PieChart extends Component {
+class CropDetailsBar extends Component {
 	render() {
 		const options = {
-			exportEnabled: true,
-			animationEnabled: true,
 			title: {
-				text: "Fertilizers Purchased"
+				text: "Price Chart"
 			},
-			data: [{
-				type: "pie",
-				startAngle: 50,
-				toolTipContent: "<b>{label}</b>: {y}%",
-				showInLegend: "true",
-				legendText: "{label}",
-				indexLabelFontSize: 14,
-				indexLabel: "{label} - {y}%",
+			data: [
+			{
+				// Change type to "doughnut", "line", "splineArea", etc.
+				type: "column",
 				dataPoints: [
-					{ y: 25, label: "Urea" },
-					{ y: 49, label: "Potassium" },
-					{ y: 9, label: "Manure" },
-					{ y: 5, label: "Ammonium Sulphate" },
-					{ y: 19, label: "Single Super Phosphate" }
+					{ label: "Barley",  y: 10  },
+					{ label: "Rice", y: 15  },
+					{ label: "Wheat", y: 25  },
+					{ label: "Maze",  y: 30  },
+					{ label: "Sarson",  y: 28  }
 				]
-			}]
+			}
+			]
 		}
 		return (
 		<div>
@@ -40,4 +35,4 @@ class PieChart extends Component {
 		);
 	}
 }
-export default PieChart;           
+export default CropDetailsBar; 
