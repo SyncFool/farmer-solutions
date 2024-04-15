@@ -99,15 +99,13 @@ A -----> B(Navbar)
 
 B --> C(Home)
 
-B --> D(Services)
-
 B --> E(About Us)
 
 B --> F(Contact Us)
 
 B --> G(Login )
 
-B --> H(Sign Up)
+B --> H(Register)
 
 A --> CC(Content - Page)
 
@@ -143,7 +141,7 @@ UP --> CM[Crop Management]
 
 UP --> HR[Hire Board]
 
-UP --> PS[Purchase Seeds]
+UP --> PS[Purchase]
 
 UP --> TS[Transport ]
 
