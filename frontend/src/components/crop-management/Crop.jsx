@@ -13,7 +13,7 @@ export default function CropManagement() {
       return (
         <>
           <div className="crop-details-cards" style={{margin:"1rem"}}>
-            <div className="card" style={{ width: "17rem" }}>
+            <div className="card" style={{ width: "17rem"}}>
               <img
                 src={props.image}
                 className="card-img-top"
@@ -30,10 +30,10 @@ export default function CropManagement() {
                 <li className="list-group-item">In Stock : {props.instock} Ton</li>
               </ul>
               <div className="card-body button-to-crop">
-                <a href="#" className="btn btn-success rounded-pill">
+                <a href="#" className="btn btn-success rounded-pill mx-1">
                   Edit
                 </a>
-                <a href="#" className="btn btn-danger rounded-pill">
+                <a href="#" className="btn btn-danger rounded-pill mx-1">
                   Delete
                 </a>
               </div>

@@ -20,30 +20,30 @@ import Projects from "./components/pages/Projects.jsx";
 import CropManagement from "./components/crop-management/Crop.jsx";
 import HireDashboard from "./components/hire-board/HireDashboard.jsx";
 import Purchase from "./components/purchase/Purchase.jsx";
+import Transport from "./components/transport/Transport.jsx";
 // import './index.css'
-
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
     <BrowserRouter>
-    <Routes>
-    <Route exact path="/" element={<Home />} />
-    <Route exact path="/login" element={<Login />} />
-    <Route exact path="/services" element={<Home />} />
-    <Route exact path="/contact-us" element={<ContactUs />} />
-      <Route exact path="/user-panel" element={<Dashboard />} />
-      <Route exact path="/wallet" element={<Wallet />} />
-      <Route exact path="/transactions" element={<Sidebar />} />
-      <Route exact path="/crop-management" element={<CropManagement />} />
-      <Route exact path="/hire-board" element={<HireDashboard />} />
-      <Route exact path="/purchase" element={<Purchase />} />
-      <Route exact path="/book-transport" element={<Sidebar />} />
-      <Route exact path="/complaint" element={<Sidebar />} />
-      <Route exact path="/setting" element={<Sidebar />} />
-      <Route exact path="/about-us" element={<AboutUs />} />
-      <Route exact path="/projects" element={<Projects />} />
-      
-    </Routes>
-  </BrowserRouter>;
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/services" element={<Home />} />
+        <Route exact path="/contact-us" element={<ContactUs />} />
+        <Route exact path="/user-panel" element={<Dashboard />} />
+        <Route exact path="/wallet" element={<Wallet />} />
+        <Route exact path="/transactions" element={<Sidebar />} />
+        <Route exact path="/crop-management" element={<CropManagement />} />
+        <Route exact path="/hire-board" element={<HireDashboard />} />
+        <Route exact path="/purchase" element={<Purchase />} />
+        <Route exact path="/book-transport" element={<Transport />} />
+        <Route exact path="/complaint" element={<Sidebar />} />
+        <Route exact path="/setting" element={<Sidebar />} />
+        <Route exact path="/about-us" element={<AboutUs />} />
+        <Route exact path="/projects" element={<Projects />} />
+      </Routes>
+    </BrowserRouter>
+    ;
   </>
 );
