@@ -182,7 +182,10 @@ UP --> AS[Account Settings]
 
 - Personalized dashboard for logged-in users.
 - Overview of current crops and their status.
-- Quick access to transportation booking, job board, marketplace, and community forum.
+- Quick access to transportation booking, hire board, and community forum.
+- Graphs for previous sales, expenses, and fertilizer purchases for better analysis.
+- Connect with others by linking to your favorite social media platforms.
+
 
 <!-- Crop Management Section -->
 ## Crop Management
@@ -204,13 +207,6 @@ UP --> AS[Account Settings]
 - Listing of available job opportunities for farmers.
 - Filters to narrow down job listings by location, type of work, and duration.
 - Application submission form for interested users.
-
-<!-- Marketplace Section -->
-## Marketplace
-
-- Product catalog showcasing seeds, fertilizers, and other farming supplies.
-- Product pages with detailed descriptions, pricing, and customer reviews.
-- Add to cart and checkout process for purchasing items.
 
 <!-- Profile Settings Section -->
 ## Profile Settings
