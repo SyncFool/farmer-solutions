@@ -116,7 +116,7 @@ const Sidebar = () => {
       return isActive ? ' nav-link active' : 'nav-link link-dark';
     }}>
               <IoSettingsOutline className="bi me-2" />
-              समायोजन
+              सेटिंग
             </NavLink>
             </>
           </li>
@@ -146,7 +146,7 @@ const Sidebar = () => {
             
             <li>
               <a className="dropdown-item" href="#">
-              समायोजन
+              सेटिंग
               </a>
             </li>
             <li>

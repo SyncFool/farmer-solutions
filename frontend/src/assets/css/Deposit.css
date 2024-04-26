@@ -1,0 +1,10 @@
+.add-money-deposit {
+  height: 50vh;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  background: #fff5f5;
+  box-shadow: 20px 20px 60px #d9d0d0, -20px -20px 60px #ffffff;
+}

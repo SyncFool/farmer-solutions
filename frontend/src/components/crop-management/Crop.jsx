@@ -6,6 +6,7 @@ import "../../assets/css/Crop.css";
 import CropDetailsChart from "./CropDetailsChart.jsx";
 import CropDetailsBar from "./CropDetailsBar.jsx";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function CropManagement() {
   const CropDetailsComponent = ({ cropData }) => {
@@ -259,9 +260,11 @@ export default function CropManagement() {
           {/* Menu Area */}
           <div className="add-menu-crop card">
             <div className="col-6 left-container-crop ">
+              <Link to="/add-new-crop">
               <button className="btn btn-success rounded-pill">
-                Add New Crop
+              नई फसल जोड़ें
               </button>
+              </Link>
             </div>
        
           </div>

@@ -5,6 +5,7 @@ import BreadCrumb from "../BreadCrumb";
 import TopBar from "../TopBar";
 import DFooter from "../DFooter";
 import WithdrawalChart from "./WithdrawalChart";
+import { Link } from "react-router-dom";
 
 export default function Wallet() {
   const RecentTransactionsComponent = ({props}) => {
@@ -68,10 +69,14 @@ export default function Wallet() {
 
           {/* Options */}
           <div className="cards-wallet card">
+            <Link style={{textDecoration:'none'}} to="/deposit">
             <div className="card wallet-item col-3">
               <img src="./assets/images/deposit.png" alt="" />
+              
               <p>पैसा जमा करें</p>
+          
             </div>
+            </Link>
             <div className="card wallet-item col-3">
               {" "}
               <img src="./assets/images/withdrawal.png" alt="" />

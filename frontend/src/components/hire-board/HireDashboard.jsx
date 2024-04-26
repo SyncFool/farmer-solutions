@@ -309,17 +309,17 @@ export default function HireDashboard() {
               style={{ overflow: "scroll", height: "70vh", padding: "1rem" }}
             >
               <div className="header-hire-board">
-                <p> Recent Hires</p>
+                <p> हाल की नियुक्तियाँ</p>
               </div>
 
               <table className="table">
                 <thead>
                   <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Charges</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Actions</th>
+                    <th scope="col">आईडी</th>
+                    <th scope="col">नाम</th>
+                    <th scope="col">शुल्क</th>
+                    <th scope="col">तारीख</th>
+                    <th scope="col">कार्रवाई</th>
                   </tr>
                 </thead>
                 <RecentHiresComponents recentHiresData={recentHiresData} />

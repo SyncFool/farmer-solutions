@@ -15,9 +15,13 @@ import Home from "./components/pages/Home.jsx";
 import ContactUs from "./components/pages/ContactUs.jsx";
 import Dashboard from "./components/dasboard/Dashboard.jsx";
 import Wallet from "./components/wallet/Wallet.jsx";
+import Deposit from "./components/wallet/Deposit.jsx";
+import AddMoney from "./components/wallet/AddMoney.jsx";
 import AboutUs from "./components/pages/About.jsx";
 
 import CropManagement from "./components/crop-management/Crop.jsx";
+import AddNewCrop from "./components/crop-management/AddNewCrop.jsx";
+
 import HireDashboard from "./components/hire-board/HireDashboard.jsx";
 import Purchase from "./components/purchase/Purchase.jsx";
 import Transport from "./components/transport/Transport.jsx";
@@ -44,6 +48,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route exact path="/complaint" element={<Complain />} />
         <Route exact path="/setting" element={<Setting />} />
         <Route exact path="/about-us" element={<AboutUs />} />
+        <Route exact path="/add-new-crop" element={<AddNewCrop />} />
+        <Route exact path="/deposit" element={<Deposit />} />
+        <Route exact path="/add-money" element={<AddMoney />} />
  
       </Routes>
     </BrowserRouter>
