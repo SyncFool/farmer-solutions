@@ -28,6 +28,8 @@ import Transport from "./components/transport/Transport.jsx";
 import Complain from "./components/complain/Complain.jsx";
 import Setting from "./components/settings/Setting.jsx";
 import Services from "./components/services/Services-C1.jsx";
+import Withdrawal from "./components/wallet/Withdrawal.jsx";
+import PaymentSection from "./components/wallet/Payment.jsx";
 // import './index.css'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -51,6 +53,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route exact path="/add-new-crop" element={<AddNewCrop />} />
         <Route exact path="/deposit" element={<Deposit />} />
         <Route exact path="/add-money" element={<AddMoney />} />
+        <Route exact path="/withdrawal" element={<Withdrawal />} />
+        <Route exact path="/payment" element={<PaymentSection />} />
  
       </Routes>
     </BrowserRouter>

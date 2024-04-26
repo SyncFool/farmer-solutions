@@ -41,7 +41,7 @@ export default function AddMoney() {
         
           <div className="d-flex justify-content-center mt-5">
           <Link to="/deposit" style={{textDecoration:'none'}}>
-            <button className="btn btn-success rounded-pill w-100">Submit</button>
+            <button className="btn btn-success rounded-pill w-100">जमा करें</button>
             </Link>
           </div>
         
