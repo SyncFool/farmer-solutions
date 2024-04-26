@@ -17,6 +17,7 @@
 .customer-review{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 .review-card {

@@ -16,7 +16,7 @@ function Header(){
     <div className="container contact-details">
     <a className="navbar-brand" href="#">
       <FaLocationDot className='Icons'/>
-      Ramveer Nagar Mathura
+      रामवीर नगर, मथुरा
     </a>
     <a className="navbar-brand" href="#">
       <FaPhoneVolume className='Icons'/>
@@ -28,7 +28,7 @@ function Header(){
     </a>
     </div>
     <div className="container contact-details social-media">
-      Follow Us:
+    हमें यहां खोजें :
       <a className="navbar-brand" href="#">
       <FaFacebookF className='Icons'/>
     </a>

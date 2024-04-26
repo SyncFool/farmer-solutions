@@ -23,7 +23,7 @@ export default function Dashboard() {
           {/* Header */}
          <TopBar/>
           {/* Bread Crum */}
-          <BreadCrumb props={"Dashboard"}></BreadCrumb>
+          <BreadCrumb props={"डैशबोर्ड"}></BreadCrumb>
           {/* Menu Area */}
           <div className="card-menu">
             <div className="card card-items ">
@@ -32,10 +32,10 @@ export default function Dashboard() {
               </div>
               <div className="menu-text-area col-6">
                 <div className="menu-heading">
-                  <h4 className="menu-heading-text">Crop Produced</h4>
+                  <h4 className="menu-heading-text">फसल का उत्पादन</h4>
                 </div>
                 <div className="menu-details">
-                  <p className="menu-subline-text">50 TON</p>
+                  <p className="menu-subline-text">50 टन</p>
                 </div>
               </div>
             </div>
@@ -46,10 +46,10 @@ export default function Dashboard() {
               </div>
               <div className="menu-text-area col-6">
                 <div className="menu-heading">
-                  <h4 className="menu-heading-text">Labour Hired</h4>
+                  <h4 className="menu-heading-text">श्रमिक को काम पर रखा गया</h4>
                 </div>
                 <div className="menu-details">
-                  <p className="menu-subline-text">500 Person</p>
+                  <p className="menu-subline-text">500 व्यक्ति</p>
                 </div>
               </div>
             </div>
@@ -60,10 +60,10 @@ export default function Dashboard() {
               </div>
               <div className="menu-text-area col-6">
                 <div className="menu-heading">
-                  <h4 className="menu-heading-text">Fertilizers Buy</h4>
+                  <h4 className="menu-heading-text">खाद खरीदें</h4>
                 </div>
                 <div className="menu-details">
-                  <p className="menu-subline-text">200 Packets</p>
+                  <p className="menu-subline-text">200 पैकेट</p>
                 </div>
               </div>
             </div>
@@ -74,7 +74,7 @@ export default function Dashboard() {
               </div>
               <div className="menu-text-area col-6">
                 <div className="menu-heading">
-                  <h4 className="menu-heading-text">Tractor Rented</h4>
+                  <h4 className="menu-heading-text">ट्रैक्टर किराये पर</h4>
                 </div>
                 <div className="menu-details">
                   <p className="menu-subline-text">50</p>
@@ -83,7 +83,7 @@ export default function Dashboard() {
             </div>
           </div>
           {/* Chart Area */}
-          <div className="graphs">
+          <div className="graphs my-2">
             <div className="chart card col-6">
               <Chart></Chart>
             </div>
@@ -106,7 +106,7 @@ export default function Dashboard() {
                   <FaSquareFacebook />
                 </div>
                 <div className="heading-social-media">
-                  <p>Like us on facebook</p>
+                  <p>फेसबुक पर हमे पसन्द करो</p>
                 </div>
               </div>
               <div className="count-socialmedia">
@@ -123,7 +123,7 @@ export default function Dashboard() {
                   <FaTwitter />
                 </div>
                 <div className="heading-social-media">
-                  <p>Follow us on Twitter</p>
+                  <p>हमें ट्विटर पर फॉलो करें</p>
                 </div>
               </div>
               <div className="count-socialmedia">
@@ -140,7 +140,7 @@ export default function Dashboard() {
                   <RxLinkedinLogo />
                 </div>
                 <div className="heading-social-media">
-                  <p>Follow us on LinkedIn</p>
+                  <p>हमें लिंक्डइन पर फ़ॉलो करें</p>
                 </div>
               </div>
               <div className="count-socialmedia">
@@ -157,7 +157,7 @@ export default function Dashboard() {
                   <TiSocialInstagram />
                 </div>
                 <div className="heading-social-media">
-                  <p>Follow us on Instagram</p>
+                  <p>हमें इंस्टाग्राम पर फॉलो करें</p>
                 </div>
               </div>
               <div className="count-socialmedia">

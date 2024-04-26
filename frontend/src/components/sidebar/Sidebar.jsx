@@ -44,7 +44,7 @@ const Sidebar = () => {
     aria-current="page"
   >
     <FaHome className="bi me-2" />
-    Dashboard
+    डैशबोर्ड
   </NavLink>
 </li>
 
@@ -55,7 +55,7 @@ const Sidebar = () => {
       return isActive ? ' nav-link active' : 'nav-link link-dark';
     }}>
               <CiWallet  className="bi me-2" />
-              Wallet 
+              खाता विवरण 
             </NavLink>
             </>
           </li>
@@ -66,7 +66,7 @@ const Sidebar = () => {
       return isActive ? ' nav-link active' : 'nav-link link-dark';
     }}>
               <PiPottedPlantLight className="bi me-2" />
-              Crop Management
+              फसल प्रबंधन
             </NavLink>
             </>
           </li>
@@ -76,7 +76,8 @@ const Sidebar = () => {
       return isActive ? ' nav-link active' : 'nav-link link-dark';
     }}>
               <FaPersonMilitaryToPerson className="bi me-2" />
-              Hire Board
+              
+श्रम बोर्ड 
             </NavLink>
             </>
           </li>
@@ -86,7 +87,7 @@ const Sidebar = () => {
       return isActive ? ' nav-link active' : 'nav-link link-dark';
     }}>
               <GiPlantSeed className="bi me-2" />
-              Purchase
+              बीज और खाद खरीदें
             </NavLink>
             </>
           </li>
@@ -95,7 +96,7 @@ const Sidebar = () => {
       return isActive ? ' nav-link active' : 'nav-link link-dark';
     }}>
               <GiFarmTractor className="bi me-2" />
-              Book Transport
+              परिवहन बुक करें
             </NavLink>
           </li>
           <li>
@@ -104,7 +105,7 @@ const Sidebar = () => {
       return isActive ? ' nav-link active' : 'nav-link link-dark';
     }}>
               <VscFeedback  className="bi me-2" />
-              Complaint & Suggestions
+              शिकायत एवं सुझाव   
             </NavLink>
             </>
           </li>
@@ -115,7 +116,7 @@ const Sidebar = () => {
       return isActive ? ' nav-link active' : 'nav-link link-dark';
     }}>
               <IoSettingsOutline className="bi me-2" />
-              Settings
+              समायोजन
             </NavLink>
             </>
           </li>
@@ -136,7 +137,7 @@ const Sidebar = () => {
               height="32"
               className="rounded-circle me-2"
             />
-            <strong>Vivek Singh</strong>
+            <strong>विवेक सिंह</strong>
           </a>
           <ul
             className="dropdown-menu text-small shadow"
@@ -145,12 +146,12 @@ const Sidebar = () => {
             
             <li>
               <a className="dropdown-item" href="#">
-                Settings
+              समायोजन
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#">
-                Profile
+              प्रोफ़ाइल
               </a>
             </li>
             <li>
@@ -158,7 +159,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a className="dropdown-item" href="#">
-                Sign out
+              लॉग आउट
               </a>
             </li>
           </ul>

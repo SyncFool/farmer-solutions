@@ -1,0 +1,20 @@
+.right-area{
+    margin-left: 1rem;
+}
+
+.complain-suggestion-area{
+    display: flex;
+    flex-direction: row;
+}
+.right-complain-suggestion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.complaint-suggestions-punchline{
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: "Livvic";
+}

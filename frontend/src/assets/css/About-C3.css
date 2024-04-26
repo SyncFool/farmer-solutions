@@ -1,12 +1,13 @@
 .ro{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
   
   
   .colu {
     float: left;
-    width: 33.3%;
+    width: 25%;
     margin-bottom: 16px;
     padding: 0 8px;
   }
@@ -14,11 +15,18 @@
   .person-profile {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   
   .person-name {
-    padding: 0 16px;
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
   }
   
   .person-name::after, .row::after {

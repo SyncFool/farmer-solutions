@@ -2,12 +2,12 @@
     /* display: flex; */
     /* flex-wrap: wrap; */
     margin-bottom: 40px;
-  }
-  .middle-left{
-    /* text-align: center; */
+    padding: 2rem;
+  
   }
 .us{
   text-align: center;
+  font-size: 1.6rem;
 }
 .ot{
   font-size:250%;
@@ -17,11 +17,14 @@
 }
 
 .sa{
-  font-size:150%;
-  margin-bottom: 20px;
+
   text-align: center;
 }
 
+.li-items-about-page{
+  font-size:1.4rem;
+  margin-bottom: 20px;
+}
 
 
 

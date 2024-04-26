@@ -63,29 +63,29 @@ export default function Wallet() {
           <TopBar />
           {/* Top Bar Close  */}
           {/* BreadCrumb */}
-          <BreadCrumb props={"Wallet"} />
+          <BreadCrumb props={"खाता विवरण"} />
           {/* Bread Crumb Close  */}
 
           {/* Options */}
           <div className="cards-wallet card">
             <div className="card wallet-item col-3">
               <img src="./assets/images/deposit.png" alt="" />
-              <p>Deposit</p>
+              <p>पैसा जमा करें</p>
             </div>
             <div className="card wallet-item col-3">
               {" "}
               <img src="./assets/images/withdrawal.png" alt="" />
-              <p>Withdrawal</p>
+              <p>पैसे की निकासी</p>
             </div>
             <div className="card wallet-item col-3">
               {" "}
               <img src="./assets/images/payment.png" alt="" />
-              <p>Payment</p>
+              <p>भुगतान करो</p>
             </div>
             <div className="card wallet-item col-3">
               {" "}
               <img src="./assets/images/transactions.png" alt="" />
-              <p>Transactions</p>
+              <p>लेन-देन की जाँच</p>
             </div>
           </div>
 
@@ -100,7 +100,7 @@ export default function Wallet() {
             {/* Recent Transactions */}
             <div className="recent-tansactions col-6">
               <div className="rheader">
-                <p>Recent Transactions</p>
+                <p>हाल ही के लेनदेन</p>
               </div>
               <div className="rsearch">
                 <div className="input-group mb-3">
@@ -114,7 +114,7 @@ export default function Wallet() {
                   </div>
                   <input
                     type="text"
-                    placeholder="Search by Id"
+                    placeholder="आईडी के आधार पर खोजें"
                     className="form-control"
                     aria-label="Text input with checkbox"
                   />
@@ -130,7 +130,7 @@ export default function Wallet() {
                   </div>
                   <input
                     type="text"
-                    placeholder="Search by Status"
+                    placeholder="स्थिति के आधार पर खोजें"
                     className="form-control"
                     aria-label="Text input with checkbox"
                   />
@@ -157,10 +157,10 @@ export default function Wallet() {
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Transaction Id</th>
-                    <th scope="col">Amount</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Date & Time</th>
+                    <th scope="col">लेनदेन आईडी</th>
+                    <th scope="col">राशि</th>
+                    <th scope="col">स्थिति</th>
+                    <th scope="col">दिनांक समय</th>
                   </tr>
                 </thead>
                 <tbody>

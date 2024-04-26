@@ -6,15 +6,15 @@ const About1=()=>{
             <div className="Txt">
             <div>
             <a  className="a" href="/Home">
-              <p>Home</p>
+              <p>होम</p>
                </a>
                </div>
-                <div>.</div>
-                <div>About</div>
+                <div>/</div>
+                <div>हमारे बारे में</div>
             </div>
 
             <div className="Txt1">
-             About Us
+            हमारे बारे में
             </div>
            </div>
 

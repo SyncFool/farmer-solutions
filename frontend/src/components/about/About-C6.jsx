@@ -8,9 +8,9 @@ const About6=()=>{
 
 <div className="test">
     <div className="te">
-    <div className="our"><img src="/assets/images/plant.png" alt="" /> Our Testimonials</div>
-          <div className="tt">What Our </div>
-          <div className="tt"> Customer Says</div>
+    <div className="our"><img src="/assets/images/plant.png" alt="" /> हमारे प्रशंसापत्र</div>
+          <div className="tt">हमारे ग्राहक  </div>
+          <div className="tt"> कहते हैं</div>
     </div>
 
 
@@ -18,23 +18,23 @@ const About6=()=>{
 
 <div className="review-card">
                 <div className="review-rating">4.5 / 5</div>
-                <h2 className="review-title">Great product!</h2>
-                <p className="review-content">I really loved this product. It exceeded my expectations.</p>
-                <p className="review-author">- Deepak Mishra</p>
+                <h2 className="review-title">महान उत्पाद!!</h2>
+                <p className="review-content">मुझे यह उत्पाद सचमुच बहुत पसंद आया। यह मेरी अपेक्षाओं से अधिक हो गया।</p>
+                <p className="review-author">- दीपक मिश्रा</p>
         </div>
 
         <div className="review-card">
                 <div className="review-rating">5 / 5</div>
-                <h2 className="review-title">Excellent service</h2>
-                <p className="review-content">The service provided by the company was outstanding.</p>
-                <p className="review-author">- Meena Devi</p> 
+                <h2 className="review-title">प्रभावशाली सेवा</h2>
+                <p className="review-content">कंपनी द्वारा प्रदान की गई सेवा उत्कृष्ट थी।</p>
+                <p className="review-author">- मीना देवी</p> 
         </div>
         
         <div className="review-card">
                 <div className="review-rating">4 / 5</div>
-                <h2 className="review-title">Best Quality Seeds</h2>
-                <p className="review-content">Seeds & Fertilizer provided by  company is best for Farming.</p>
-                <p className="review-author">- Ramkumar</p> 
+                <h2 className="review-title">सर्वोत्तम गुणवत्ता वाले बीज</h2>
+                <p className="review-content">कंपनी द्वारा उपलब्ध कराए गए बीज और उर्वरक खेती के लिए सर्वोत्तम हैं।</p>
+                <p className="review-author">- रामकुमार</p> 
         </div>
 
 </div>

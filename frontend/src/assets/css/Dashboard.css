@@ -25,6 +25,7 @@
 .card-menu {
   display: flex;
   padding: 0px 10px;
+  justify-content: space-around;
 }
 
 .card-items {
@@ -57,6 +58,7 @@
 .graphs {
   width: 100%;
   display: flex;
+  justify-content: space-around;
 }
 .chart {
   margin-left: 1rem;

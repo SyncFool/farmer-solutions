@@ -3,19 +3,19 @@ const About3=()=>{
     return (
 
         <div className="last">
-        <div className="farm"><img src="/assets/images/plant.png" alt="" />हमारे किसान</div>
-        <div className="expert"><h1>विशेषज्ञ सदस्यों  से मिलें
-</h1></div>
+        <div className="farm"><img src="/assets/images/plant.png" alt="" />Our Farmers</div>
+        <div className="expert"><h1>Meet Expert </h1></div>
+        <div className="expert"><h1>Members</h1></div>
         <br /><br /><br />
               <div className="ro">
                   <div className="colu">
                     <div className=" person-profile">
                       <img src="/assets/images/Farmer1.avif" alt="Jane"  />
                       <div className=" person-name">
-                        <h2>महेस सिसौदिया</h2>
-                        <p className="title">विशेषज्ञ सदस्य</p>
+                        <h2>Mike Brown</h2>
+                        <p className="title">Expert Farmer</p>
                         
-                        <p>maheshsisodia@gmail.com</p>
+                        <p>Mike_Brown@gmail.com</p>
                        
                       </div>
                     </div>
@@ -25,10 +25,10 @@ const About3=()=>{
                     <div className=" person-profile">
                       <img src="/assets/images/Farmer2.avif" alt="Mike" />
                       <div className=" person-name">
-                        <h2>रवीना धनेजा</h2>
-                        <p className="title">विशेषज्ञ सदस्य</p>
+                        <h2>Jassica Andrew</h2>
+                        <p className="title">Expert Farmer</p>
                         
-                        <p>raveenadhaneja@gmail.com</p>
+                        <p>Jassica_Andrew@gmail.com</p>
                         
                       </div>
                     </div>
@@ -38,10 +38,10 @@ const About3=()=>{
                     <div className=" person-profile">
                       <img src="/assets/images/Farmer3.avif" alt="John" />
                       <div className=" person-name">
-                        <h2>सुरेश प्रताप</h2>
-                        <p className="title">विशेषज्ञ सदस्य</p>
+                        <h2>Polard Albert</h2>
+                        <p className="title">Expert Farmer</p>
                         
-                        <p>sureshpratap@gmail.com</p>
+                        <p>Polard_Albert@gmail.com</p>
                        
                       </div>
                     </div>

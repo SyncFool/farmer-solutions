@@ -25,16 +25,16 @@ export default function CropManagement() {
                 <p className="card-text">{props.tagline}</p>
               </div>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Produced Size: {props.size} Ton</li>
-                <li className="list-group-item">Price : {props.price} Per Ton</li>
-                <li className="list-group-item">In Stock : {props.instock} Ton</li>
+                <li className="list-group-item">उत्पादित फसल: {props.size} टन</li>
+                <li className="list-group-item">कीमत : {props.price} प्रति टन</li>
+                <li className="list-group-item">स्टॉक में : {props.instock} टन</li>
               </ul>
               <div className="card-body button-to-crop">
                 <a href="#" className="btn btn-success rounded-pill mx-1">
-                  Edit
+                एडिटिंग करें
                 </a>
                 <a href="#" className="btn btn-danger rounded-pill mx-1">
-                  Delete
+                यहां हटाएं
                 </a>
               </div>
             </div>
@@ -57,184 +57,184 @@ export default function CropManagement() {
   const [cropData,setCropData]=useState([
     {
       id: 1,
-      name: "Barley",
+      name: "जौ",
       image: "./assets/images/crop/1.jpeg",
-      tagline: "A versatile grain for various uses",
+      tagline: "विभिन्न उपयोगों के लिए एक बहुमुखी अनाज",
       size: 200,
       price: 50000,
       instock: 50
     },
     {
       id: 2,
-      name: "Wheat",
+      name: "गेहूं",
       image: "./assets/images/crop/2.jpeg",
-      tagline: "A staple food in many cultures",
+      tagline: "कई संस्कृतियों में एक मुख्य खाद्य",
       size: 180,
       price: 48000,
       instock: 60
     },
     {
       id: 3,
-      name: "Corn",
+      name: "मक्का",
       image: "./assets/images/crop/3.jpeg",
-      tagline: "A widely cultivated cereal grain",
+      tagline: "एक व्यापक रूप से खेती की जाने वाली अनाज",
       size: 220,
       price: 55000,
       instock: 40
     },
     {
       id: 4,
-      name: "Rice",
+      name: "चावल",
       image: "./assets/images/crop/4.jpeg",
-      tagline: "A primary food source for billions",
+      tagline: "अरबों के लिए प्राथमिक खाद्य स्रोत",
       size: 240,
       price: 60000,
       instock: 45
     },
     {
       id: 5,
-      name: "Soybean",
+      name: "सोयाबीन",
       image: "./assets/images/crop/5.jpeg",
-      tagline: "A valuable source of protein and oil",
+      tagline: "प्रोटीन और तेल का मूल्यवान स्रोत",
       size: 190,
       price: 52000,
       instock: 55
     },
     {
       id: 6,
-      name: "Sugarcane",
+      name: "गन्ना",
       image: "./assets/images/crop/6.jpeg",
-      tagline: "A major source of sugar production",
+      tagline: "चीनी उत्पादन का प्रमुख स्रोत",
       size: 300,
       price: 70000,
       instock: 30
     },
     {
       id: 7,
-      name: "Cotton",
+      name: "कपास",
       image: "./assets/images/crop/7.jpeg",
-      tagline: "A versatile fiber used in textiles",
+      tagline: "वस्त्रों में उपयोग की जाने वाली एक बहुमुखी रेशा",
       size: 250,
       price: 65000,
       instock: 35
     },
     {
       id: 8,
-      name: "Potato",
+      name: "आलू",
       image: "./assets/images/crop/8.jpeg",
-      tagline: "A staple food with various culinary uses",
+      tagline: "विभिन्न रसोई उपयोगों के साथ एक मुख्य खाद्य",
       size: 170,
       price: 45000,
       instock: 70
     },
     {
       id: 9,
-      name: "Millet",
+      name: "बाजरा",
       image: "./assets/images/crop/9.jpeg",
-      tagline: "A drought-tolerant cereal grain",
+      tagline: "एक सूखे के प्रति सहनशील अनाज",
       size: 210,
       price: 53000,
       instock: 50
     },
     {
       id: 10,
-      name: "Sorghum",
+      name: "ज्वार",
       image: "./assets/images/crop/10.jpeg",
-      tagline: "A versatile grain used for food, feed, and biofuel",
+      tagline: "खाद्य, चारा, और बायोफ्यूल के लिए एक बहुमुखी अनाज",
       size: 230,
       price: 57000,
       instock: 45
     },
     {
       id: 11,
-      name: "Oats",
+      name: "जई",
       image: "./assets/images/crop/11.jpeg",
-      tagline: "A nutritious cereal grain with many health benefits",
+      tagline: "कई स्वास्थ्य लाभों के साथ एक पौष्टिक अनाज",
       size: 200,
       price: 50000,
       instock: 60
     },
     {
       id: 12,
-      name: "Quinoa",
+      name: "क्विनोआ",
       image: "./assets/images/crop/12.jpeg",
-      tagline: "A gluten-free pseudocereal with high nutritional value",
+      tagline: "उच्च पोषणीय मूल्य वाला ग्लूटेन मुक्त सुदृढ़ अनाज",
       size: 180,
       price: 48000,
       instock: 55
     },
     {
       id: 13,
-      name: "Sunflower",
+      name: "सूरजमुखी",
       image: "./assets/images/crop/13.jpeg",
-      tagline: "A beautiful flower cultivated for its seeds",
+      tagline: "अपने बीज के लिए कृषि किया जाने वाला एक सुंदर फूल",
       size: 220,
       price: 55000,
       instock: 40
     },
     {
       id: 14,
-      name: "Pea",
+      name: "मटर",
       image: "./assets/images/crop/14.jpeg",
-      tagline: "A versatile legume used in various cuisines",
+      tagline: "विभिन्न रसोई व्यंजनों में उपयोग किया जाने वाला एक बहुमुखी दाल",
       size: 240,
       price: 60000,
       instock: 50
     },
     {
       id: 15,
-      name: "Chickpea",
+      name: "चना",
       image: "./assets/images/crop/15.jpg",
-      tagline: "A nutritious pulse with many culinary uses",
+      tagline: "बहुमुखी उपयोगों के साथ एक पौष्टिक दाल",
       size: 190,
       price: 52000,
       instock: 65
     },
     {
       id: 16,
-      name: "Alfalfa",
+      name: "अल्फाल्फा",
       image: "./assets/images/crop/16.jpg",
-      tagline: "A high-protein forage crop used for animal feed",
+      tagline: "पशु चारा के लिए उपयोग  कया जाने वाला उच्च प्रोटीन वाला फोरेज फसल",
       size: 300,
       price: 70000,
       instock: 30
     },
     {
       id: 17,
-      name: "Peanut",
+      name: "मूँगफली",
       image: "./assets/images/crop/17.jpg",
-      tagline: "A legume grown for its edible seeds",
+      tagline: "इसके खाने योग्य बीज के लिए उत्पादित गोख",
       size: 250,
       price: 65000,
       instock: 40
     },
     {
       id: 18,
-      name: "Lentil",
+      name: "मसूर",
       image: "./assets/images/crop/18.jpg",
-      tagline: "A nutritious pulse used in various cuisines",
+      tagline: "विभिन्न रसोई व्यंजनों में उपयोग किया जाने वाला एक पौष्टिक दाल",
       size: 170,
       price: 45000,
       instock: 55
     },
     {
       id: 19,
-      name: "Canola",
+      name: "कनोला",
       image: "./assets/images/crop/19.jpg",
-      tagline: "A valuable oilseed crop used in cooking and biodiesel",
+      tagline: "पकाने और बायोडीजल में उपयोग किए जाने वाले मूल्यवान तेलबीज फसल",
       size: 210,
       price: 53000,
       instock: 35
     },
     {
       id: 20,
-      name: "Flaxseed",
+      name: "अलसी का बीज",
       image: "./assets/images/crop/20.jpg",
-      tagline: "A nutritious seed rich in omega-3 fatty acids",
+      tagline: "ओमेगा-3 फैटी एसिड्स में समृद्ध पौष्टिक बीज",
       size: 230,
       price: 57000,
-      instock:500
-}]);
+      instock: 500
+    }]);
   return (
     <>
       <div className="full-box">
@@ -244,7 +244,7 @@ export default function CropManagement() {
           {/* Header */}
           <TopBar />
           {/* Bread Crum */}
-          <BreadCrumb props={"Crop Management"}></BreadCrumb>
+          <BreadCrumb props={"फसल प्रबंधन"}></BreadCrumb>
 
           {/* Details of Crop With Chart  */}
 

@@ -1,8 +1,8 @@
 import "../../assets/css/About-C1.css";
-const Project1=()=>{
+const ServicesC1=()=>{
     return (
 
-        <div className="Img">
+        <div className="Img" style={{backgroundImage:"url(./assets/images/background-services.jpg)",backgroundPositionY:'-270px'}}>
             <div className="Txt">
             <div>
             <a  className="a" href="/Home">
@@ -10,21 +10,15 @@ const Project1=()=>{
                </a>
                </div>
                 <div>.</div>
-                <div>Projects</div>
+                <div>Services</div>
             </div>
 
             <div className="Txt1">
-             Projects
+             Services
             </div>
-        </div>
-
-
-       
-
-
-
+           </div>
 
     )
 }
 
-export default  Project1;
+export default  ServicesC1;

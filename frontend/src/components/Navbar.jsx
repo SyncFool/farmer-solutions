@@ -22,10 +22,10 @@ const Navbar = () => {
               to="/" 
              
             > 
-              Home 
+              होम 
             </NavLink>
           </div>
-          <div className="item">
+          {/* <div className="item">
             <NavLink 
               className="navLink" 
               to="/services" 
@@ -33,23 +33,15 @@ const Navbar = () => {
             > 
               Services 
             </NavLink>
-          </div>
-          <div className="item">
-            <NavLink 
-              className="navLink" 
-              to="/projects" 
-           
-            > 
-              Projects
-            </NavLink>
-          </div>
+          </div> */}
+          
           <div className="item">
             <NavLink 
               className="navLink" 
               to="/about-us" 
              
             > 
-              About Us
+              हमारे बारे में जानें
             </NavLink>
           </div>
           <div className="item">
@@ -58,7 +50,7 @@ const Navbar = () => {
               to="/contact-us" 
            
             > 
-              Contact Us 
+              संपर्क करें 
             </NavLink>
           </div>
         </div>
@@ -73,7 +65,7 @@ const Navbar = () => {
               width:'100%'
             })}
           >
-            Register
+            खाता खोलें
           </NavLink>
         
           <NavLink  
@@ -85,7 +77,7 @@ const Navbar = () => {
               width:'100%'
             })}
           >
-            Login
+            लॉग इन करें
           </NavLink>
       
         </div>

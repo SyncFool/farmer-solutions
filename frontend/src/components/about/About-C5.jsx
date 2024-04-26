@@ -9,7 +9,7 @@ const About5=()=>{
         <div className="Tx">
       
            
-            <div>Empowering farmers is not just about providing solutions; it's about fostering resilience, sustainability, and prosperity from the ground up</div>
+            <div>किसानों को सशक्त बनाना केवल समाधान प्रदान करना नहीं है; यह जमीनी स्तर से लचीलापन, <br></br>स्थिरता और समृद्धि को बढ़ावा देने के बारे में है</div>
         </div>
 
      

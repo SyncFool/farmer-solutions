@@ -15,11 +15,16 @@ export default function AboutUs(){
         <Header/>
         <Navbar/>
         <About1/>
-        <Comp2home/>
-        <About5/>
+    
+   
         <About4/>
+     
+        <About5/>
         <About6/>
         <About3/>
+        
+      
+      
         
 
         <Footer/>
