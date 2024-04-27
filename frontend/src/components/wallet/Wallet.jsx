@@ -214,11 +214,13 @@ export default function Wallet() {
               <p>भुगतान करो</p>
             </div>
             </Link>
+            <Link style={{ textDecoration: "none" }} to="/transactions">
             <div className="card wallet-item col-3">
               {" "}
               <img src="./assets/images/transactions.png" alt="" />
               <p>लेन-देन की जाँच</p>
             </div>
+            </Link>
           </div>
 
           {/* Chart */}

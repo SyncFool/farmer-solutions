@@ -30,6 +30,8 @@ import Setting from "./components/settings/Setting.jsx";
 import Services from "./components/services/Services-C1.jsx";
 import Withdrawal from "./components/wallet/Withdrawal.jsx";
 import PaymentSection from "./components/wallet/Payment.jsx";
+import Register from "./components/register/Register.jsx";
+import TransactionHistory from "./components/wallet/Transactions.jsx";
 // import './index.css'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -38,11 +40,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/login" element={<Login />} />
+        <Route exact path="/register" element={<Register />} />
         <Route exact path="/services" element={<Services />} />
         <Route exact path="/contact-us" element={<ContactUs />} />
         <Route exact path="/user-panel" element={<Dashboard />} />
         <Route exact path="/wallet" element={<Wallet />} />
-        <Route exact path="/transactions" element={<Sidebar />} />
+     
         <Route exact path="/crop-management" element={<CropManagement />} />
         <Route exact path="/hire-board" element={<HireDashboard />} />
         <Route exact path="/purchase" element={<Purchase />} />
@@ -55,7 +58,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route exact path="/add-money" element={<AddMoney />} />
         <Route exact path="/withdrawal" element={<Withdrawal />} />
         <Route exact path="/payment" element={<PaymentSection />} />
- 
+        <Route exact path="/transactions" element={<TransactionHistory />} />
       </Routes>
     </BrowserRouter>
     ;
